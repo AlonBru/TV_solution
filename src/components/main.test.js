@@ -21,7 +21,7 @@ const getGenrePath = (childNum)=>{
 }
 
 
-jest.setTimeout(30000);
+jest.setTimeout(10000);
 describe(projectName, () => {
   beforeAll(async () => {
     browser = await puppeteer.launch();
